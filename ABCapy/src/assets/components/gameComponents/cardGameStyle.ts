@@ -21,8 +21,4 @@ export const styles = StyleSheet.create({
     color: "#297AB8",
   },
 
-  imgStyle: {
-    width: 262,
-    height: 96,
-  },
 });

@@ -16,18 +16,15 @@ type Props = {
 
 const CardGame = ({ text, image, onPress }: Props) => {
   return (
-    <View style={styles.cardBase}> 
-      
- 
+    <View style={styles.cardBase}>
       <Pressable onPress={onPress} style={styles.btnStyle}>
         <Text style={styles.textStyle}>{text}</Text>
-        
-        <View style={styles.imgContainer}>
-          <Image style={styles.imgStyle} source={image} />
+
+        <View>
+          <Image source={image} />
         </View>
-      </Pressable> 
-      
-    </View> 
+      </Pressable>
+    </View>
   );
 };
 

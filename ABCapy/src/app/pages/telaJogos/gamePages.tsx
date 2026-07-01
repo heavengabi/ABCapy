@@ -5,9 +5,9 @@ import Capy1 from "../../../assets/images/gameImages/Capy1.png";
 import telaJogos from "../../../assets/images/gameImages/telaJogos.png";
 import CardGame from "../../../assets/components/gameComponents/cardGame";
 import jogo1 from "../../../assets/images/gameImages/jogo1.png";
-import jogo2 from "../../../assets/images/gameImages/jogo2.png"
-import jogo3 from "../../../assets/images/gameImages/jogo3.png"
-
+import jogo2 from "../../../assets/images/gameImages/jogo2.png";
+import jogo3 from "../../../assets/images/gameImages/jogo3.png";
+import Header from "../../../assets/components/screenComponents/Header/Header";
 const gamePages = () => {
   return (
     <ImageBackground
@@ -15,11 +15,7 @@ const gamePages = () => {
       style={styles.container}
       resizeMode="cover"
     >
-      <View style={styles.header}>
-        <Pressable style={styles.botao}>
-          <Text style={styles.btnText}>❮</Text>
-        </Pressable>
-      </View>
+      <Header />
       <View style={styles.containerImg}>
         <Text style={styles.textStyle}>O que vamos jogar?</Text>
         <Image source={Capy1} style={styles.imgStyle} />
