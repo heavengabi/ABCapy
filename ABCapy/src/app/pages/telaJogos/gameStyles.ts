@@ -40,6 +40,16 @@ export const styles = StyleSheet.create({
   containerImg: {
     justifyContent: "center",
     alignItems: "center",
-    marginTop:40
+    marginTop:50
+    
   },
+
+  textStyle:{
+    fontSize:24,
+    fontFamily:'Poppins',
+    fontWeight:'bold',
+    textTransform:'uppercase',
+    color:'#297AB8',
+    marginTop:20
+  }
 });
